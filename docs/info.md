@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+It is a very basic design where almost all wires are directly connected to the LED, so turning on switches 3-8 will result in the corresponding LED part to light up. 1 and 2 are also connected with LEDs, however there is an XOR gate in between and the output is connected with OUT1. OUT0 always stays dark.
 
 ## How to test
 
-Explain how to use your project
+Playing around with switches 1 and 2 helps demonstrate the function of an XOR gate. 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Only the already provided LED display was used. 
